@@ -18,6 +18,14 @@
 * from konlpy.tag import Okt : Okt 형태소 분석기 사용(트위터 제작)
 * from gensim.models.doc2vec import Doc2Vec, TaggedDocument : Gensim 사용
 
+
 ![image](https://user-images.githubusercontent.com/28869864/117263845-a3672600-ae8d-11eb-97c4-17412ee62695.png)
 (Bokeh 시각화 예시 - '제1공화국'은  '써드 스타 제1공화국'과 유사함)
 
+----------
+### 4. 참고
+* Document embedding : 문서 내에 등장하는 단어의 임베딩 벡터들을 평균하여 document 벡터로 간주함.
+* 특징 : 특정 책과 유사한 줄거리를 가지는 책들을 추천함.
+* 출처 : https://wikidocs.net/102705
+
+![image](https://user-images.githubusercontent.com/28869864/117268236-06f35280-ae92-11eb-8079-0062eebda77a.png)
